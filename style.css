@@ -197,9 +197,9 @@ input:-webkit-autofill:focus {
 .bttn-default,
 .bttn-white {
   padding: 12px 30px;
-  background: linear-gradient(rgba(0, 0, 0, 0.35), rgba(0, 0, 0, 0.35)), #ff4b3a;
+  background: #ff4b3a;
   display: inline-block;
-  color: #000000;
+  color: white;
   text-transform: uppercase;
   border-radius: 50px;
   letter-spacing: 1.5px;
@@ -345,7 +345,7 @@ input:-webkit-autofill:focus {
   display: flex;
   align-items: center;
   justify-content: center;
-  background: linear-gradient(rgba(0, 0, 0, 0.35), rgba(0, 0, 0, 0.35)), #ff4b3a;
+  background: linear-gradient(rgba(0, 0, 0, 0.15), rgba(0, 0, 0, 0.15)), #ff4b3a;
   -webkit-transition: 0.3s;
   -o-transition: 0.3s;
   transition: 0.3s;
@@ -474,7 +474,7 @@ input:-webkit-autofill:focus {
 
 .home-area {
   width: 100%;
-  background: linear-gradient(rgba(0, 0, 0, 0.35), rgba(0, 0, 0, 0.35)), #ff4b3a;
+  background: linear-gradient(rgba(0, 0, 0, 0.15), rgba(0, 0, 0, 0.15)), #ff4b3a;
   padding-top: 150px;
   color: #ffffff;
   margin-bottom: 100px;
@@ -523,8 +523,18 @@ input:-webkit-autofill:focus {
   background-repeat: no-repeat;
   background-position: right center;
   background-size: auto 100%;
-  margin-top: 90px;
-  margin-bottom: 220px;
+  padding-top: 150px;
+  padding-bottom: 100px;
+}
+
+@media screen and (max-width: 900px) {
+  .progress-area {
+    padding-top: 50px;
+    padding-bottom: 200px;
+  }
+  .page-title.section-padding {
+    padding-top: 0;
+  }
 }
 
 .progress-area .mobile-image {
@@ -566,11 +576,8 @@ input:-webkit-autofill:focus {
 
 .feature-area {
   color: #ffffff;
-  background: linear-gradient(rgba(0, 0, 0, 0.35), rgba(0, 0, 0, 0.35)), #ff4b3a;
-  background-image: url("images/feature-bg.png");
-  background-position: bottom -120px center;
-  background-repeat: no-repeat;
-  background-size: auto 94%;
+  background: linear-gradient(rgba(0, 0, 0, 0.15), rgba(0, 0, 0, 0.15)), #ff4b3a;
+
   margin-bottom: 142px;
 }
 
@@ -806,8 +813,8 @@ input:-webkit-autofill:focus {
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover;
-  background: linear-gradient(rgba(0, 0, 0, 0.35), rgba(0, 0, 0, 0.35)), #ff4b3a;
-  margin-top: 70px;
+  background: linear-gradient(rgba(0, 0, 0, 0.15), rgba(0, 0, 0, 0.15)), #ff4b3a;
+  margin-top: 55px;
   margin-bottom: 100px;
   color: #ffffff;
 }
@@ -1055,8 +1062,7 @@ input:-webkit-autofill:focus {
   background: rgb(72, 44, 191);
   /* Old browsers */
   /* FF3.6-15 */
-  cursor: pointer;
-  background: linear-gradient(rgba(0, 0, 0, 0.35), rgba(0, 0, 0, 0.35)), #ff4b3a;
+  background: linear-gradient(rgba(0, 0, 0, 0.15), rgba(0, 0, 0, 0.15)), #ff4b3a;
 
   /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
   filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#482cbf', endColorstr='#6ac6f0', GradientType=1);
